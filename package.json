@@ -1,0 +1,18 @@
+{
+  "name": "class001",
+  "version": "1.0.0",
+  "description": "scrapper",
+  "main": "background.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "dexie": "^3.2.1",
+    "dotenv": "^16.0.0",
+    "esbuild": "^0.14.27",
+    "mongoose": "^6.2.10",
+    "puppeteer": "^13.5.2"
+  },
+  "scripts": {
+    "dev": "node scripts/watch.js"
+  }
+}
